@@ -1,0 +1,149 @@
+* {
+    box-sizing: border-box;
+}
+
+*,
+::after,
+::before {
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    display: block;
+    width: 100%;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-size: inherit;
+    font-weight: inherit;
+}
+
+:root{
+
+    --clr-primary-100: #F3EED9;
+    --clr-primary-200: #222C2A;
+    --clr-primary-300: #824936;
+
+    /* --clr-secondary-100: ;
+    --clr-secondary-200: ; */
+
+    --clr-accent-100: #F3EED9;
+    --clr-accent-200: #222C2A;
+    --clr-accent-200: #824936;
+
+    --font-family-heading:  'Playfair Display', serif;
+    --font-family-body: 'Roboto', sans-serif;
+}
+
+body {
+    font-family: var(--font-family-body);
+}
+
+.container {
+    padding: 4rem;
+}
+
+.top {
+    background-color: var(--clr-primary-100);
+}
+
+.least {
+    /* background-color: var(--clr-primary-200); */
+
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    gap: 3rem;
+    /* padding: 3rem; */
+}
+
+.left {
+    color: var(--clr-accent-100);
+
+    max-width: 50rem;
+    border: 2px solid red;
+}
+
+.last {
+    display: flex;
+    justify-content: center;
+    /* gap: 3rem; */
+    /* max-width: 42rem; */
+    /* padding: 3rem; */
+    border: 2px solid red;
+}
+
+.right {
+    color: var(--clr-accent-100);
+
+    max-width: 42rem;
+}
+
+.top {
+    display: flex;
+    justify-content: center;
+
+    /* padding-top: 2rem;
+    padding-bottom: 2rem; */
+}
+
+.main p {
+    color: var(--clr-accent-300);
+    text-align: center;
+    letter-spacing: 5px;
+    font-weight: 100;
+}
+
+.sub-main {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.main>.main-title {
+    color: var(--clr-accent-200);
+    font-family: var(--font-family-heading);
+    font-size: 36px;
+
+    max-width: 32rem;
+    text-align: center;
+}
+
+.sub-title {
+    font-family: var(--font-family-heading);
+    font-size: 32px;
+}
+
+
+.info {
+    display: flex;
+    padding-top: 1rem;
+    max-width: 32rem;
+}
+
+.sub {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.info2 {
+    display: flex;
+    
+    gap: 1rem;
+    max-width: 52rem;
+    padding-top: 1rem;
+}
+
+.sub-main > .sub-title {
+    color: var(--clr-primary-300);
+    text-align: center;
+}
+
+.bottom1 {
+    background-color: var(--clr-primary-200);
+}
+
+.bottom2 {
+    background-color: var(--clr-primary-300);
+}
