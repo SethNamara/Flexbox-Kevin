@@ -62,7 +62,7 @@ body {
     color: var(--clr-accent-100);
 
     max-width: 50rem;
-    border: 2px solid red;
+    /* border: 2px solid red; */
 }
 
 .last {
@@ -71,7 +71,7 @@ body {
     /* gap: 3rem; */
     /* max-width: 42rem; */
     /* padding: 3rem; */
-    border: 2px solid red;
+    /* border: 2px solid red; */
 }
 
 .right {
